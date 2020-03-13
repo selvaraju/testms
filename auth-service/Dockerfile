@@ -1,5 +1,5 @@
 FROM openjdk
 MAINTAINER Piotr Minkowski <piotr.minkowski@gmail.com>
-ADD target/account-service.jar account-service.jar
-ENTRYPOINT ["java", "-jar", "/account-service.jar"]
+ADD target/auth-service.jar auth-service.jar
+ENTRYPOINT ["java", "-jar", "/auth-service.jar"]
 EXPOSE 2222

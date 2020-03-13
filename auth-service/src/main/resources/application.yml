@@ -22,3 +22,12 @@ eureka:
 ribbon:
   eureka:
     enabled: true
+
+auth:
+  issuer: AR-Auth
+  header: X-Authorization
+  token-type: Bearer
+  #signing-key: ${SIGNING_KEY}
+  signing-key: GQS7R0mLWs2N4ZF+t2bxipjrhWCPK40jh6Or60AowM0BNbxCQWywg4KZwkcEXPH4TeAuqiM3qCFQO1A/B5Djug==
+  expires-in-sec: 7200
+  compression-enabled: false
